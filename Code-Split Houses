@@ -1,0 +1,10 @@
+n=int(input())
+s=input()
+if 'HH' in s:
+ print("NO")
+elif '.' in s or 'H' in s:
+   s_new=s.replace('.','B')
+   print("YES")
+   print(s_new)
+else:
+   print("NO")
